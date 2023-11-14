@@ -126,6 +126,13 @@ font-family: 'Oswald', sans-serif; */
     margin: 0 auto 17px;
 }
 
+@media screen and (max-width: 1280px) {
+    .header__title {
+        padding-left: 15px;
+        padding-right: 15px;
+     }
+ }
+
 @media screen and (max-width: 380px) {
    .h1 {
         font-size: 46px;
@@ -451,7 +458,8 @@ font-family: 'Oswald', sans-serif; */
     max-width: 730px;
 }
 
-.question_h3.open::before,
+/* Трикутники біля тексту */
+/* .question_h3.open::before,
 .question_h3.close::before {
     content: '';
     display: inline-block;
@@ -469,7 +477,7 @@ font-family: 'Oswald', sans-serif; */
 
 .question_h3.close + .question_p {
     display: none;
-}
+} */
 
 @media screen and (max-width: 1280px) {
     .question {
@@ -601,6 +609,11 @@ font-family: 'Oswald', sans-serif; */
 
 .contacts__h3 {
     text-transform: uppercase;
+}
+
+.contacts__h3 a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .contacts__h3-gray {

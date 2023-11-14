@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test-site</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
@@ -184,26 +184,26 @@
         <div class="container">
             <h2 class="text-h2 section__h2">Відповіді на запитання</h2>
             <div class="question_items">
-                <div class="question_item">
-                    <h3 class="text-h3 question_h3 close">Lorem ipsum dolor sit amet consectetur?</h3>
+                <details class="question_item">
+                    <summary class="text-h3 question_h3">Lorem ipsum dolor sit amet consectetur?</summary>
                     <p class="text-p question_p">
                         Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст. На той час якийсь безіменний друкар створив велику колекцію розмірів і форм шрифтів, використовуючи Lorem Ipsum для друку зразків./p>
-                </div>
-                <div class="question_item">
-                    <h3 class="text-h3 question_h3 open">Lorem ipsum dolor sit amet consectetur?</h3>
+                </details>
+                <details class="question_item">
+                    <summary class="text-h3 question_h3">Lorem ipsum dolor sit amet consectetur?</summary>
                     <p class="text-p question_p">
                         Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст. На той час якийсь безіменний друкар створив велику колекцію розмірів і форм шрифтів, використовуючи Lorem Ipsum для друку зразків./p>
-                </div>
-                <div class="question_item">
-                    <h3 class="text-h3 question_h3 close">Lorem ipsum dolor sit amet consectetur?</h3>
+                </details>
+                <details class="question_item">
+                    <summary class="text-h3 question_h3">Lorem ipsum dolor sit amet consectetur?</summary>
                     <p class="text-p question_p">
                         Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст. На той час якийсь безіменний друкар створив велику колекцію розмірів і форм шрифтів, використовуючи Lorem Ipsum для друку зразків./p>
-                </div>
-                <div class="question_item">
-                    <h3 class="text-h3 question_h3 close">Lorem ipsum dolor sit amet consectetur?</h3>
+                </details>
+                <details class="question_item">
+                    <summary class="text-h3 question_h3">Lorem ipsum dolor sit amet consectetur?</summary>
                     <p class="text-p question_p">
-                        Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст. На той час якийсь безіменний друкар створив велику колекцію розмірів і форм шрифтів, використовуючи Lorem Ipsum для друку зразків./p>
-                </div>
+                        Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст. На той час якийсь безіменний друкар створив велику колекцію розмірів і форм шрифтів, використовуючи Lorem Ipsum для друку зразків.</p>
+                </details>
             </div>
         </div>
     </section>
@@ -301,7 +301,11 @@
                          src="./img/phone-icon.svg" 
                          alt="Phone Icon">
                     <h3 class="text-h3 contacts__h3 contacts__h3-gray">Телефон:</h3>
-                    <h3 class="text-h3 contacts__h3">8(044)111-22-33<br>8(044)111-22-33</h3>
+                    <h3 class="text-h3 contacts__h3">
+                        <a href="tel:+380441112233">8(044)111-22-33</a>
+                        <br>
+                        <a href="tel:+380441112233">8(044)111-22-33</a>
+                    </h3>
                 </div>
                 <div class="contacts__item">
                     <img class="contacts__icon" 
@@ -315,7 +319,9 @@
                          src="./img/mail-icon.svg" 
                          alt="Mail Icon">
                     <h3 class="text-h3 contacts__h3 contacts__h3-gray">E-mail:</h3>
-                    <h3 class="text-h3 contacts__h3 contacts__h3-accent">mail@gmail.com</h3>
+                    <h3 class="text-h3 contacts__h3 contacts__h3-accent">
+                        <a href="mailto:mail@gmail.com">mail@gmail.com</a>
+                    </h3>
                 </div>
             </div>
         </div>
